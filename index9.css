@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.filter{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	opacity: .7;
+background-image: url(choco9.jpg);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c64e9",endColorstr="#5c4ae9",GradientType=1); ; 
+}
+table {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3); 
+	background: #fafafa;
+	text-align: center;
+
+}
+th,td{
+	padding: 20px, 20px;
+}
+
+th{
+	height: 5px;
+	color: #fafafa;
+	background:#3949ab;
+	text-transform: uppercase;
+	font-family: 'roboto',sans-serif;
+}
+td{
+		font-family: 'Open-sans' ,sans-serif;
+}
+tr:nth-child(odd){
+	background-color: #eeeeee;
+
+}

@@ -1,0 +1,31 @@
+
+body{
+	position: cover;
+	background-image: url(white1.jpg);
+     
+	}
+
+p {
+     
+    font: normal italic 14px/23px Georgia, serif;
+ 	display: block;
+	text-align: center;
+    color:	#000000;
+    
+}
+img{
+	border: 1px solid black;
+     border-radius: 20%;
+	margin: 20px auto;
+	border-radius: 25px ; 
+	width: 480px;
+	height: 480px;
+	display: block;
+	text-align: center;
+	
+}
+
+img:hover {
+  box-shadow: 5px 4px 4px 3px gray;
+}
+   
